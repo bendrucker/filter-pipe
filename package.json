@@ -1,7 +1,7 @@
 {
   "name": "filter-pipe",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pass a value through synchronous filter functions",
   "license": "MIT",
   "repository": "bendrucker/filter-pipe",
