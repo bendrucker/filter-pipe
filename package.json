@@ -1,0 +1,31 @@
+{
+  "name": "filter-pipe",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Pass a value through synchronous filter functions",
+  "license": "MIT",
+  "repository": "bendrucker/filter-pipe",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "value",
+    "filter",
+    "function"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "to-array": "~0.1.4"
+  }
+}
