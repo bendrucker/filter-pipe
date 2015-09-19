@@ -9,8 +9,7 @@ function filterPipe (fns) {
   if (!Array.isArray(fns)) return filterPipe(toArray(arguments))
   return function filterPipeline (value) {
     for (var i = 0; i < fns.length; i++) {
-      value = fns[i](value)
-      if (!value) return
+      if (!fns[i](value)) return
     }
   }
 }

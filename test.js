@@ -9,12 +9,12 @@ test(function (t) {
   t.equal(filter(gt2, gt3, gt4)(3), undefined)
 
   function gt2 (value) {
-    t.pass('3 > 2')
+    t.equal(value, 3)
     return true
   }
 
   function gt3 (value) {
-    t.pass('filtered here')
+    t.equal(value, 3)
     return false
   }
 
