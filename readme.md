@@ -1,4 +1,4 @@
-# filter-pipe [![Build Status](https://travis-ci.org/bendrucker/filter-pipe.svg?branch=master)](https://travis-ci.org/bendrucker/filter-pipe)
+# filter-pipe [![Build Status](https://travis-ci.org/bendrucker/filter-pipe.svg?branch=master)](https://travis-ci.org/bendrucker/filter-pipe) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/filter-pipe.svg)](https://greenkeeper.io/)
 
 > Pass a value through synchronous filter functions
 
